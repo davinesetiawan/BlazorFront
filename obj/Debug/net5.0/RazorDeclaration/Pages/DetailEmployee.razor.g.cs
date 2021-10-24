@@ -82,7 +82,7 @@ using BlazorFront.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/detailemployee/{employId}")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/detailemployee/{id}")]
     public partial class DetailEmployee : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

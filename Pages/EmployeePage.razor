@@ -5,7 +5,7 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>EmployeeId</th>
+            <th>Employee Id</th>
             <th>Another Info</th>
         </tr>
     </thead>
@@ -13,8 +13,8 @@
         @foreach (var emp in Employees)
         {
             <tr>
-                <td>@emp.EmployeeId</td>
-                <td><a href="#"class="btn btn-info"></a></td>
+                <td>@emp.employeeId</td>
+                <td><a href="@($"detailemployee/{emp.employeeId}")"class="btn btn-info">Detail</a></td>
             </tr>
         }
     </tbody>
