@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\blazor\\BlazorFront\\BlazorFront.csproj": {}
+    "c:\\blazor\\BlazorFront\\BlazorFront.csproj": {}
   },
   "projects": {
-    "C:\\blazor\\BlazorFront\\BlazorFront.csproj": {
+    "c:\\blazor\\BlazorFront\\BlazorFront.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\blazor\\BlazorFront\\BlazorFront.csproj",
+        "projectUniqueName": "c:\\blazor\\BlazorFront\\BlazorFront.csproj",
         "projectName": "BlazorFront",
-        "projectPath": "C:\\blazor\\BlazorFront\\BlazorFront.csproj",
+        "projectPath": "c:\\blazor\\BlazorFront\\BlazorFront.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\blazor\\BlazorFront\\obj\\",
+        "outputPath": "c:\\blazor\\BlazorFront\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
