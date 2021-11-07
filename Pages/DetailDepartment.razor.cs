@@ -9,7 +9,7 @@ namespace BlazorFront.Pages
     public partial class DetailDepartment
     {
         [Parameter]
-        public string id { get; set; }
+        public string id { get; set; } //parameter untuk mendapatkan id
 
         [Inject]
         public IDepartmentService DepartmentService { get; set; }

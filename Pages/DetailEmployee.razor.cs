@@ -18,8 +18,8 @@ namespace BlazorFront.Pages
 
         protected override async Task OnInitializedAsync()
         {
-            id = id ?? "7";
-            Employee = await EmployeeService.GetById(int.Parse(id));
+            id = id ?? "9";
+            Employee = await EmployeeService.GetEmployee(int.Parse(id));
         }
     }
 }

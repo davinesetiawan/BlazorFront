@@ -6,7 +6,7 @@ namespace BlazorFront.Services
 {
     public interface IDepartmentService
     {
-         Task<IEnumerable<Department>> GetAll();
-         Task<Department> GetById(int id);
+         Task<IEnumerable<Department>> GetAll(); //mengambil semua data 
+         Task<Department> GetById(int id); //mengambil 1 data saja
     }
 }

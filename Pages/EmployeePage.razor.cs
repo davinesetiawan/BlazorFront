@@ -9,14 +9,25 @@ namespace BlazorFront.Pages
 {
     public partial class EmployeePage
     {
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public IEnumerable<Employee> Employees { get; set; }
 
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
-            Employees = (await EmployeeService.GetAll()).ToList();
+            Employees = (await EmployeeService.GetEmployees()).ToList();
+
         }
+
+        // public List<Employee> Employees { get; set; } = new List<Employee>();
+
+        // [Inject]
+        // public IEmployeeService EmployeeService { get; set; }
+
+        // protected override async Task OnInitializedAsync()
+        // {
+        //     Employees = (await EmployeeService.GetEmployees()).ToList();
+        // }
     }
 }
