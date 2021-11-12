@@ -20,8 +20,6 @@ namespace BlazorFront.Models
         
         public int departmentId { get; set; }
 
-        public string departmentName { get; set; }
-
         public string photoPath { get; set; }
 
     }

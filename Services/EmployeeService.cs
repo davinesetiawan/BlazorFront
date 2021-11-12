@@ -16,6 +16,16 @@ namespace BlazorFront.Services
             _httpClient = httpClient;
         }
 
+        public Task<Employee> Add(Employee employee)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<Employee> Delete(int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public async Task<Employee> GetEmployee(int id)
         {
             var hasil = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
@@ -26,6 +36,11 @@ namespace BlazorFront.Services
         {
             var hasil1 = await _httpClient.GetFromJsonAsync<IEnumerable<Employee>>("api/Employees");
             return hasil1;
+        }
+
+        public Task<Employee> Update(int id, Employee employee)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

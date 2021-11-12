@@ -8,20 +8,21 @@
             <div class="card-header">
                 <h3>@Employee.firstName @Employee.lastName</h3>
             </div>
-            <img class="card img-top img-thumbnail" src="@Employee.photoPath" />
+            <img class="card img-top img-thumbnail" src="@Employee.photoPath" @onmousemove = "@Mouse_Move" />
+            <h4>@Coordinates</h4>
             <div class="card-footer text-justify">
                 <p>Employee Id : @Employee.employeeId</p>
-                <p>First Name : @Employee.firstName</p>
-                <p>Last Name : @Employee.lastName</p>
                 <p>Email : @Employee.email</p>
                 <p>Date Of Birth : @Employee.dateofBirth</p>
                 <p>Gender : @Employee.gender</p>
                 <p>Deparment ID: @Employee.departmentId</p>
-                <p>Department Name: @Employee.departmentName</p>
-                <div class="card-footer text-center">
-                    <a href="/employeepage" class="btn btn-primary m-1">Back</a>
-                </div>
             </div>
+                <div class="card-footer text-center @CssClass">
+                    <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
+                    <a href="/employeepage" class="btn btn-primary m-1">Back</a>
+                    <a href="#" class="btn btn-warning m-1">Edit</a>
+                    <a href="#" class="btn btn-danger m-1">Delete</a>
+                </div>
         </div>
 </div>
 </div>
