@@ -147,6 +147,59 @@
         }
       },
       {
+        "HashCode": -725115679,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Pages.EditEmployee",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": 621748007,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Pages.EditEmployee",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorFront.Pages.EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1403080180,
         "Kind": "Components.Component",
         "Name": "BlazorFront.Pages.EmployeePage",
@@ -365,6 +418,39 @@
         }
       },
       {
+        "HashCode": 224785982,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Shared.NavMenu",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 764231059,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Shared.NavMenu",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorFront.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1905145792,
         "Kind": "Components.Component",
         "Name": "BlazorFront.Shared.MainLayout",
@@ -457,39 +543,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "BlazorFront.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 224785982,
-        "Kind": "Components.Component",
-        "Name": "BlazorFront.Shared.NavMenu",
-        "AssemblyName": "BlazorFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 764231059,
-        "Kind": "Components.Component",
-        "Name": "BlazorFront.Shared.NavMenu",
-        "AssemblyName": "BlazorFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorFront.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13213,6 +13266,11 @@
     {
       "FilePath": "c:\\blazor\\BlazorFront\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\blazor\\BlazorFront\\Pages\\EditEmployee.razor",
+      "TargetPath": "Pages\\EditEmployee.razor",
       "FileKind": "component"
     },
     {

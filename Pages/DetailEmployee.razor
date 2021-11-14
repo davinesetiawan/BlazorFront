@@ -14,14 +14,14 @@
                 <p>Employee Id : @Employee.employeeId</p>
                 <p>Email : @Employee.email</p>
                 <p>Date Of Birth : @Employee.dateofBirth</p>
-                <p>Gender : @Employee.gender</p>
+                <p>Gender : @Employee.Gender</p>
                 <p>Deparment ID: @Employee.departmentId</p>
             </div>
                 <div class="card-footer text-center @CssClass">
                     <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
-                    <a href="/employeepage" class="btn btn-primary m-1">Back</a>
-                    <a href="#" class="btn btn-warning m-1">Edit</a>
-                    <a href="#" class="btn btn-danger m-1">Delete</a>
+                    <a href="/employeepage" class="btn btn-primary m-1 oi oi-media-skip-backward">Back</a>
+                    <a href="@($"editemployee/{Employee.employeeId}")" class="btn btn-warning m-1 oi oi-pencil">Edit</a>
+                    <a href="#" class="btn btn-danger m-1 oi oi-trash">Delete</a>
                 </div>
         </div>
 </div>

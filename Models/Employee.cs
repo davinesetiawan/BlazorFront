@@ -14,11 +14,13 @@ namespace BlazorFront.Models
 
         public DateTime dateofBirth { get; set; }
 
-        public Gender gender { get; set; }
+        public Gender Gender { get; set; }
 
         public Department Department {get; set;}
         
         public int departmentId { get; set; }
+
+        public Department departmentName { get; set; }
 
         public string photoPath { get; set; }
 

@@ -638,3 +638,5 @@ C:\blazor\BlazorFront\obj\Debug\net5.0\RazorDeclaration\Pages\DetailEmployee.raz
 C:\blazor\BlazorFront\obj\Debug\net5.0\RazorDeclaration\Pages\EmployeePage.razor.g.cs
 C:\blazor\BlazorFront\obj\Debug\net5.0\Razor\Pages\DetailEmployee.razor.g.cs
 C:\blazor\BlazorFront\obj\Debug\net5.0\Razor\Pages\EmployeePage.razor.g.cs
+C:\blazor\BlazorFront\obj\Debug\net5.0\RazorDeclaration\Pages\EditEmployee.razor.g.cs
+C:\blazor\BlazorFront\obj\Debug\net5.0\Razor\Pages\EditEmployee.razor.g.cs

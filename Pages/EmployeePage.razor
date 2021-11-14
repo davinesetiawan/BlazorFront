@@ -11,13 +11,16 @@
         {
                 <div class="card m-3" style="min-width: 18rem; max-width:30%">
                     <div class="card-header">
-                        <h3>@emp.firstName @emp.lastName</h3>
+                        <h3 class="text-center">@emp.firstName @emp.lastName</h3>
                     </div>
-                    <img class="card-img-top img-thumbnail" src="@emp.photoPath" />
+                    <img class="img-thumbnail" src="@emp.photoPath" />
+                    <div class="card-footer text-justify">
+                        <p>Employee Id : @emp.employeeId</p>
+                    </div>
                     <div class="card-footer text-center">
-                        <a href="@($"detailemployee/{emp.employeeId}")" class="btn btn-primary m-1">Views</a>
-                        <a href="#" class="btn btn-warning m-1">Edit</a>
-                        <a href="#" class="btn btn-danger m-1">Delete</a>
+                        <a href="@($"detailemployee/{emp.employeeId}")" class="btn btn-primary m-1 oi oi-book">Views</a>
+                        <a href="@($"editemployee/{emp.employeeId}")" class="btn btn-warning m-1 oi oi-pencil">Edit</a>
+                        <a href="#" class="btn btn-danger m-1 oi oi-trash">Delete</a>
                     </div>
                 </div>
         }
