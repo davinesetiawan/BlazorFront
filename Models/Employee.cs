@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace BlazorFront.Models
 {
@@ -6,10 +7,15 @@ namespace BlazorFront.Models
     {
         public int employeeId { get; set; }
 
+        [Required(ErrorMessage ="First Name is Required")]
+        [StringLength(100,MinimumLength =2)]
         public string firstName { get; set; }
 
+        [Required(ErrorMessage ="Last Name is Required")]
+        [StringLength(100,MinimumLength =2)]
         public string lastName { get; set; }
 
+        [Required]
         public string email { get; set; }
 
         public DateTime dateofBirth { get; set; }

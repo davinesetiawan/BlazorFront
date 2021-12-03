@@ -18,16 +18,6 @@ namespace BlazorFront.Services
             _httpClient = httpClient;
         }
 
-        public Task<Employee> Add(Employee employee)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<Employee> Delete(int id)
-        {
-            throw new System.NotImplementedException();
-        }
-
         public async Task<Employee> GetEmployee(int id)
         {
             var hasil = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
@@ -50,6 +40,23 @@ namespace BlazorFront.Services
                 {
                     throw new Exception("Gagal update Employee");
                 }
+        }
+
+        public async Task<Employee> Add(Employee obj)
+        {
+            var response = await _httpClient.PostAsJsonAsync($"api/Employees",obj);
+                if(response.IsSuccessStatusCode)
+                {
+                    return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+                }else
+                    {
+                        throw new Exception("gagal tambah data Employee");
+                    }
+        }
+
+        public Task<Employee> Delete(int id)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
